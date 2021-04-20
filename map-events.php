@@ -103,14 +103,14 @@
         <h2 class="header2">Карта мероприятий</h2>
         <div class="map">
           <img class="img-map" src="maps\maps1\map1.png" alt="">
-          <a href="http://adaptation.case-in/map-event.php">
+          <a href="map-event.php">
             <img class="point-map" src="img\point.png" style="top: 43px; left: 53px;">
             <div class="direction-point" style="top: 43px; left: 113px;">
               Ознакомиться с правилами пожарной безопасности
             </div>
 
           </a>
-          <a href="http://adaptation.case-in/map-event.php">
+          <a href="map-event.php">
             <img class="point-map" src="img\point.png" style="top: 157px; left: 139px;">
             <div class="direction-point" style="top: 157px; left: 199px;">
               Пройти обучение по окозание первой помощи

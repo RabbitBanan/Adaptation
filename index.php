@@ -1,8 +1,8 @@
 <?php
   // Подключаем файл для соединения с СУБД MySQL
-  require_once('database.php');
+  //require_once('database.php');
 
-  connect();
+  //connect();
 ?>
 
 

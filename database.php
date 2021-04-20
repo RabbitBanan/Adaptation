@@ -1,7 +1,7 @@
 <?php
 function connect() {
 
-    $link = mysqli_connect("localhost", "employee", "1234", "ci_adaptachion");
+    $link = mysqli_connect("localhost", "debian-sys-maint", "root", "ci_adaptachion");
 
     if (!$link) {
         echo "Ошибка: Невозможно установить соединение с MySQL." . PHP_EOL;

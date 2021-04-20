@@ -1,6 +1,6 @@
 <div class="header-page-top">
   <div class="header-page--logo">
-    <a href="http://adaptation.case-in/" class="logo">
+    <a href="index.php" class="logo">
       <img src="img\logo-case-in.png" alt="Case-IN">
     </a>
   </div>
@@ -13,7 +13,7 @@
 
       </li>-->
       <li class="">
-        <a href="http://adaptation.case-in/" class="nav-menu--link my-adapt">
+        <a href="index.php" class="nav-menu--link my-adapt">
           <span>Моя адаптация</span>
         </a>
 
@@ -21,7 +21,7 @@
     </ul>
   </div>
   <div class="header-page--profile-user">
-    <a href="http://adaptation.case-in/profile.php" class="avatar">
+    <a href="profile.php" class="avatar">
       <img src="img\profile.png" alt="user">
       <span>Богдан Цимбалюк</span>
     </a>
