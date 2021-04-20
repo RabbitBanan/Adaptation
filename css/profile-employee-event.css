@@ -1,0 +1,19 @@
+.profile-employee-event {
+  background-color: #fff;
+}
+
+.employee-events {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.employee-event {
+  margin-bottom: 5px;
+}
+
+.employee-event a {
+  text-decoration: none;
+  color: black;
+
+}

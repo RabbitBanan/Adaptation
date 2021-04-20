@@ -1,0 +1,59 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+
+.icon-info-profile {
+  display: flex;
+  height: auto;
+  padding: 20px;
+}
+
+.info-profile {
+  padding: 10px 5px;
+  padding-left: 15px;
+}
+
+.progress {
+  display: flex;
+  padding: 0 50px;
+  justify-content: space-around;
+  background-color: #2d2d44;
+  color: #fff;
+}
+
+.progress-item {
+  padding: 30px 20px
+}
+
+.profile-competence {
+  background-color: #fff;
+}
+
+.competences {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+
+}
+
+.competence {
+  margin-bottom: 10px;
+
+}
+
+.title {
+  font-size: 22px;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+  padding-left: 50px;
+}

@@ -1,0 +1,27 @@
+.profile-competence {
+  background-color: #fff;
+}
+
+.competences {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+
+}
+
+.competence {
+  margin-bottom: 10px;
+
+}
+
+.competence-title {
+  font-size: 22px;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.competence-description {
+  margin: 0;
+  padding-left: 40px;
+  padding-top: 10px;
+}

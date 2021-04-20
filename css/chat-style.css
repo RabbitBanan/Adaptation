@@ -1,0 +1,92 @@
+.chat {
+  position: fixed;
+
+  bottom: 1px; /* Положение от нижнего края */
+  right: 1px;
+}
+
+.chat:hover .chat-box{
+  display: flex;
+
+}
+
+.chat img{
+  width: 80%;
+}
+
+.chat-box {
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px #383838;
+  width: 450px;
+  height: 600px;
+  right: 5px;
+  bottom: 5px;
+  background-color: #fff;
+}
+
+.header-chat-box {
+  height: 75px;
+  color: #fff;
+  background-color: #2d2d44;
+  display: flex;
+}
+
+.header-chat-box img{
+  width: 75px;
+}
+
+.header-chat-box p{
+  margin: auto 0;
+}
+
+.connect-chat-box {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.space-chat-box {
+  color: #fff;
+  flex-grow: 1;
+}
+
+.message-box {
+  min-height: 50px;
+  display: flex;
+  margin: 0;
+  background-color: #f8f8f8;
+  max-width: 80%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 20px;
+}
+
+.message-bot {
+  align-self: flex-end;
+}
+
+.message {
+}
+
+.autor {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.input-chat-box {
+  display: flex;
+  height: 60px;
+  background-color: #2d2d44;
+}
+
+.input-chat-box input{
+  flex-grow: 1;
+  font-size: 20px;
+}
+
+.input-chat-box button{
+  padding: 5px;
+}

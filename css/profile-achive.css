@@ -1,0 +1,24 @@
+.profile-achive {
+  background-color: #fff;
+}
+
+.achives{
+  display: flex;
+}
+
+.achive {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.achive span {
+  text-align: center;
+}
+
+
+.achive img {
+  height: 160px;
+
+}

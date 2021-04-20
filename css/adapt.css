@@ -1,0 +1,35 @@
+.adapts {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+  height: auto;
+}
+
+.adapt {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 20px;
+  min-height: 150px;
+
+}
+
+.adapt img {
+  width: 150px;
+  margin: auto;
+}
+
+.text-adapt {
+  padding: 30px 10px;
+  flex-grow: 1;
+}
+
+.text-adapt a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-adapt a:hover {
+  text-decoration: underline;
+  color: #3527b6;
+}

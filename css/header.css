@@ -1,0 +1,86 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.header-page-top {
+  display: flex;
+  color: #fff;
+  background-color: #2d2d44;
+  height: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header-page--nav-menu {
+  flex-grow: 1;
+}
+
+.header-page--logo {
+  margin-right: 30px;
+}
+
+.header-page--profile-user {
+  padding: 9px 13px;
+
+  align-self: flex-end;
+}
+
+.header-page--profile-user a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.header-page--profile-user:hover{
+  background-color: #6c6c7c;
+}
+
+.nav-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.nav-menu li {
+  display: flex;
+  list-style: none;
+  align-self: flex-end;
+}
+
+.nav-menu li:hover{
+  background-color: #6c6c7c;
+}
+
+.logo {
+  width: 170px;
+  display: block;
+  height: 100%;
+}
+
+.avatar {
+  display: inline-flex;
+  height: 100%;
+}
+
+.avatar span {
+  padding-top: 4px;
+  vertical-align: bottom;
+  margin-left: 10px;
+}
+
+.logo img {
+  width: 170px;
+}
+
+.avatar img {
+  height: 31px;
+}
+
+.nav-menu--link{
+  padding: 15px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}

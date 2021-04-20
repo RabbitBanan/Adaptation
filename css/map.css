@@ -1,0 +1,29 @@
+.maps {
+  display: flex;
+  flex-flow: row wrap;
+  height: auto;
+  background-color: #fff;
+  
+
+}
+
+.map-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.map-item:hover {
+  background-color: #f2f3f4;
+}
+
+.map-item span {
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+.map-item img {
+  height: 200px;
+}
