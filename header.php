@@ -16,8 +16,7 @@
         <a href="index.php" class="nav-menu--link my-adapt">
           <span>Моя адаптация</span>
         </a>
-
-      </lis>
+      </li>
     </ul>
   </div>
   <div class="header-page--profile-user">
