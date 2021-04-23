@@ -33,3 +33,12 @@
   text-decoration: underline;
   color: #3527b6;
 }
+
+.table-adapt {
+    background-color: #f8f8f8;
+}
+
+.table-adapt p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
