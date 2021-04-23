@@ -29,6 +29,8 @@ body {
 }
 
 .component {
+  background-color: #fff;
+  padding: 2px;
 }
 
 .border-grey {
