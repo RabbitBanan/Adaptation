@@ -1,7 +1,7 @@
 <div class="table-adapt component">
     <div class="employees-list">
         <div class="employee">
-            <p>Цимбалюк Богдан Ростиславович</p>
+            <p>Цимбалюк ЛОХ Ростиславович</p>
             <p>Должность - Инженер-программист</p>
             <div class="passed-events">
                 <p>Пройденные мероприятия:</p>
