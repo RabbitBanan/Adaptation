@@ -113,7 +113,7 @@
           <a href="map-event.php">
             <img class="point-map" src="img\point.png" style="top: 157px; left: 139px;">
             <div class="direction-point" style="top: 157px; left: 199px;">
-              Пройти обучение по окозание первой помощи
+              Пройти обучение по окозанию первой помощи
             </div>
           </a>
         </div>

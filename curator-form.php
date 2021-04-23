@@ -25,7 +25,7 @@
       <?php include 'header.php'; ?>
     </header>
     <div class="content-page">
-      <h1 class="header header-border">Моя адаптация</h1>
+      <h1 class="header header-border">Сотрудники</h1>
       <?php include 'adapt-table.php'; ?>
     </div>
   </body>
