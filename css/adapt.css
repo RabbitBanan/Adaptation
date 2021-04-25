@@ -3,12 +3,15 @@
   flex-flow: row wrap;
   flex-direction: column;
   height: auto;
+  padding: 0 35px;
+  border-bottom: 10px solid #f8f8f8
 }
 
 .adapt {
+  background-color: rgba(45, 45, 68, 0.2);;
   display: flex;
   width: 100%;
-  background-color: #fff;
+  border-radius: 10px;
   margin-bottom: 20px;
   min-height: 150px;
 
@@ -17,11 +20,13 @@
 .adapt img {
   width: 150px;
   margin: auto;
+  padding: 10px;
 }
 
 .text-adapt {
   padding: 30px 10px;
   flex-grow: 1;
+  border-left: 5px solid #fff;
 }
 
 .text-adapt a{
@@ -41,4 +46,23 @@
 .table-adapt p {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.add-adap {
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+
+.add-adap input {
+  font-size: 140%;
+  border: none;
+  background-color: rgba(45, 45, 68, 0.2);
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.add-adap input:hover {
+
+  color: #fff;
+  background-color: rgba(45, 45, 68, 1);;
 }
