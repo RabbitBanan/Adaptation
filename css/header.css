@@ -7,9 +7,12 @@ body{
   display: flex;
   color: #fff;
   background-color: #2d2d44;
-  height: 100px;
+  min-height: 100px;
   padding-left: 30px;
   padding-right: 30px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .header-page--nav-menu {
@@ -21,18 +24,34 @@ body{
 }
 
 .header-page--profile-user {
-  padding: 9px 13px;
-
-  align-self: flex-end;
+  display: flex;
+  padding: 9px 13px 0;
+  align-items: flex-end;
 }
 
-.header-page--profile-user a {
-  text-decoration: none;
-  cursor: pointer;
-  color: #fff;
+
+
+
+
+.header-page--profile-user span{
+  padding-bottom: 15px;
+  font-size: 140%;
 }
 
-.header-page--profile-user:hover{
+.header-page--profile-user img {
+  padding-bottom: 7px;
+  padding-top: 7px;
+  width: 48px;
+}
+
+.header-page--profile-user div{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.header-page--profile-user div:hover{
   background-color: #6c6c7c;
 }
 
@@ -49,7 +68,7 @@ body{
   align-self: flex-end;
 }
 
-.nav-menu li:hover{
+.nav-menu a:hover{
   background-color: #6c6c7c;
 }
 
@@ -60,7 +79,6 @@ body{
 }
 
 .avatar {
-  display: inline-flex;
   height: 100%;
 }
 
@@ -79,8 +97,17 @@ body{
 }
 
 .nav-menu--link{
-  padding: 15px 10px;
+  font-size: 140%;
+
+  padding: 15px 10px 15px;
+  border: none;
+  background-color: #2d2d44;
   text-decoration: none;
   cursor: pointer;
   color: #fff;
+}
+
+.nav-menu--link:hover {
+  background-color: #6c6c7c;
+
 }
