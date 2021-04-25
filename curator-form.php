@@ -1,8 +1,15 @@
 <?php
+  require_once "authcUser.php";
   // Подключаем файл для соединения с СУБД MySQL
   //require_once('database.php');
 
   //connect();
+
+  $authcUser = new authcUser;
+  if (!$authcUser->CheckUse()) {
+    require "auto.php";
+    return;
+  }
 ?>
 
 
@@ -21,6 +28,7 @@
     </style>
   </head>
   <body>
+    
     <header class="header-page">
       <?php include 'header.php'; ?>
     </header>
