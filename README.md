@@ -32,3 +32,4 @@ curator-form.php, adapt-table.php - станица куратора
 
 cadr-сompetence-form.php, trace-table.php - станица кадрового специалиста
 
+index.js - JS code
