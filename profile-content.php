@@ -4,7 +4,7 @@
       <img src="img\profile-2.png">
     </div>
     <div class="info-profile">
-      <p>Цимбалюк Богдан Ростиславович</p>
+      <p><?php print($_SESSION["user_family"] . ' ' . $_SESSION["user_name"]); ?> </p>
       <p>Должность - Инженер-программист</p>
     </div>
   </div>
