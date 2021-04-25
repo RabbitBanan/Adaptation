@@ -1,8 +1,18 @@
 <?php
-  // Подключаем файл для соединения с СУБД MySQL
-  require_once('database.php');
+  require_once "authcUser.php";
 
-  connect();
+
+  $authcUser = new authcUser;
+  if (!$authcUser->CheckUse()) {
+    require "auto.php";
+    return;
+  }
+
+
+  // Подключаем файл для соединения с СУБД MySQL
+  #require_once('database.php');
+
+  #connect();
 ?>
 
 
@@ -14,21 +24,32 @@
     <link rel="stylesheet" href="css\adapt.css">
     <link rel="stylesheet" href="css\map.css">
     <link rel="stylesheet" href="css\chat-style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
     <title>Адаптация</title>
+
+
 
     <style type="text/css">
 
     </style>
   </head>
   <body>
+    
     <header class="header-page">
       <?php include 'header.php'; ?>
     </header>
     <div class="content-page">
-      <h1 class="header header-border">Моя адаптация</h1>
-      <?php include 'adapt.php'; ?>
-      <?php include 'map.php'; ?>
-      <?php include 'chat.php'; ?>
+
+      <?php
+
+        print ('<h1 class="header header-border">Моя адаптация</h1>');
+        include 'adapt.php';
+        include 'map.php';
+        include 'chat.php';
+
+       ?>
+
     </div>
   </body>
 </html>
