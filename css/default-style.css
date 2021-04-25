@@ -30,7 +30,7 @@ body {
 
 .component {
   background-color: #fff;
-  padding: 2px;
+  width: fit-content;
 }
 
 .border-grey {
