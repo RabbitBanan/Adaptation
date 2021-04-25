@@ -1,3 +1,16 @@
+<?php
+
+require_once "authcUser.php";
+
+
+$authcUser = new authcUser;
+if (!$authcUser->CheckUse()) {
+  require "auto.php";
+  return;
+}
+
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
