@@ -25,3 +25,8 @@ adapt.php - задания адаптации
 header.php - вверхняя панель приложения
 
 chat.php - чат
+
+curator-form.php, adapt-table.php - станица куратора
+
+cadr-сompetence-form.php, trace-table.php - станица кадрового специалиста
+
