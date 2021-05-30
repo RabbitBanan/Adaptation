@@ -123,7 +123,11 @@ if (!$authcUser->CheckUse()) {
             </div>
 
           </a>
+<<<<<<< HEAD
           <a href="map-event-2.php">
+=======
+          <a href="map-event-1.php">
+>>>>>>> 59b4a77f13ff278e44a69a3a536ff2b9b52f785e
             <img class="point-map" src="img\point.png" style="top: 157px; left: 139px;">
             <div class="direction-point" style="top: 157px; left: 199px;">
               Пройти обучение по окозанию первой помощи
