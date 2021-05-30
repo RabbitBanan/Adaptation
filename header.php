@@ -6,7 +6,7 @@
 
 
   function btnMyAdaptation() {
-    location.href = "http://adaptation/";
+    location.href = "/";
   }
 
   function btnMyStaff() {
@@ -31,7 +31,7 @@
 
 <div class="header-page-top">
   <div class="header-page--logo">
-    <a href="http://adaptation/" class="logo">
+    <a href="/" class="logo">
       <img src="img\logo-case-in.png" alt="Case-IN">
     </a>
   </div>

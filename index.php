@@ -35,7 +35,7 @@
     </style>
   </head>
   <body>
-    
+
     <header class="header-page">
       <?php include 'header.php'; ?>
     </header>

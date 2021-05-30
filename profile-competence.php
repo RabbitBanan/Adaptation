@@ -1,5 +1,5 @@
 <div class="profile-competence">
-  <h2 class="header2 border-grey">2 компетенции</h2>
+  <h2 class="header2 border-grey">Компетенции</h2>
   <div class="competences">
     <div class="competence">
       <p class="competence-title">Умение работать в команде.</p>

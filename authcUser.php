@@ -18,25 +18,41 @@ class authcUser {
 
     }
 
-    public function CheckAuth($login){
-      $this->LoadAllInf($login);
-      return true;
+    public function CheckAuth($login, $pass){
+      if ($this->LoadAllInf($login, $pass)) {
+        return true;
+      }else {
+        return false;
+      }
+
     }
 
-    public function LoadAllInf($login){
+    public function LoadAllInf($login, $pass){
         $_SESSION["login"] = $login;
+        $_SESSION["password"] = $pass;
 
-        if ($_SESSION["login"] == 'curator') {
+        if (($_SESSION["login"] == 'curator') && ($_SESSION["password"] == 'curator')) {
           $_SESSION["user_name"] = 'Василий';
           $_SESSION["user_family"] = 'Баляс';
-        } else if ($_SESSION["login"] == 'cadr') {
+
+          $_SESSION["isAuto"] = true;
+          return true;
+        } else if (($_SESSION["login"] == 'cadr') && ($_SESSION["password"] == 'cadr')) {
           $_SESSION["user_name"] = 'Алексей';
           $_SESSION["user_family"] = 'Кардашин';
-        } else {
+
+          $_SESSION["isAuto"] = true;
+          return true;
+        } else if (($_SESSION["login"] == 'worker') && ($_SESSION["password"] == 'worker')) {
           $_SESSION["user_name"] = 'Богдан';
           $_SESSION["user_family"] = 'Цимбалюк';
-        }
 
+          $_SESSION["d"] = 'true';
+          return true;
+        } else {
+          $_SESSION["isAuto"] = 'false';
+          return false;
+        }
     }
     /*public function CheckAuth($name, $pass){
         //$query = "select count(*) as countU, id from case.user where login = $name and password =$pass";
