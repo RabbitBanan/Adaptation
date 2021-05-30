@@ -47,7 +47,7 @@
         include 'adapt.php';
         include 'map.php';
         include 'chat.php';
-
+        include 'doc.php';
        ?>
 
     </div>

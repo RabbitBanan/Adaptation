@@ -64,14 +64,16 @@ if (!$authcUser->CheckUse()) {
         border-radius: 10px;
         border: 2px solid;
         padding-left: 0 20px;
-        background-color: #2d2d44;
-        color: #fff;
+        /*background-color: #2d2d44;
+        color: #fff;*/
+        background-color: gray;
+        color: black;
         text-decoration: none;
       }
 
-      .button-employee-event:hover{
+      /*.button-employee-event:hover{
         background-color: #6c6c7c;
-      }
+      }*/
 
         .button-employee-event p {
           margin: 10px 20px;
@@ -100,7 +102,7 @@ if (!$authcUser->CheckUse()) {
           <img class="point-map" src="img\point.png" style="top: 43px; left: 53px;">
         </div>
       </div>
-      <a class="button-employee-event" href="/">
+      <a class="button-employee-event" href="#">
         <p>Завершить</p>
       </a>
       <div class="chat">
