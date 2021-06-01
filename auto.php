@@ -9,8 +9,6 @@ if (isset($_POST['login'])) {
   if ($authcUser->CheckAuth($_POST['login'], $_POST['password'])) {
       header('Location: http://atom-edu-adapt.ru/');
       return;
-  } else {
-    $authcUser->UnLogin();
   }
 }
 
@@ -40,7 +38,7 @@ if (isset($_POST['login'])) {
         if ($isAuto == 'false') {
           print('<span style="color: red"> Ошибка: неверный логин или пароль</span>');
         }
-        $_SESSION["isAuto"] = 'true';
+        $authcUser->UnLogin();
       ?>
       <form class="auto" method="post">
         <fieldset>
