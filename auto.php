@@ -7,8 +7,10 @@ $authcUser->UnLogin();
 
 if (isset($_POST['login'])) {
   if ($authcUser->CheckAuth($_POST['login'], $_POST['password'])) {
-      header('Location: http://adaptation/');
+      header('Location: /');
       return;
+  } else {
+    $authcUser->UnLogin();
   }
 }
 
@@ -56,6 +58,6 @@ if (isset($_POST['login'])) {
       </form>
     </div>
 
-    
+
   </body>
 </html>
