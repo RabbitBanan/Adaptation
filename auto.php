@@ -7,7 +7,7 @@ $authcUser->UnLogin();
 
 if (isset($_POST['login'])) {
   if ($authcUser->CheckAuth($_POST['login'], $_POST['password'])) {
-      header('Location: /');
+      header('Location: http://atom-edu-adapt.ru/');
       return;
   } else {
     $authcUser->UnLogin();
